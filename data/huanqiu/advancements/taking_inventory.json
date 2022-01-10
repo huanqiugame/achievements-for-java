@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "打开物品栏",
+        "description": "由于条件限制，此成就无法移植",
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "command": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

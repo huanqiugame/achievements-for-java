@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "基岩版成就",
+        "description": "现在，Java版也有了基岩版成就！",
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background":"minecraft:textrues/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "command": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
