@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": "获得木头",
+        "description": "从树上砍下来一块木材",
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent":"huanqiu:bedrock/root",
+    "criteria": {
+        "get_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {
+                        "count":{
+                            "min":1
+                        },
+                        "items":[
+                            "minecraft:oak_log",
+                            "minecraft:spruce_log",
+                            "minecraft:birch_log",
+                            "minecraft:jungle_log",
+                            "minecraft:acacia_log",
+                            "minecraft:dark_oak_log"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

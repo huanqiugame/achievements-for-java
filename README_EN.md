@@ -20,4 +20,4 @@ Because of data pack restriction, I can't return to the original trigger. Please
 
 ## Sharing
 
-This data pack issues on [Github](https://github.com/huanqiugame/achievement-for-java/) and [Gitee](https://gitee.com/huan-qiu/achievement-for-java/) (in China) at same time. 
+This data pack issues on [Github](https://github.com/huanqiugame/achievements-for-java/) and [Gitee](https://gitee.com/huan-qiu/achievements-for-java/) (in China) at same time. 

@@ -1,0 +1,128 @@
+{
+    "display": {
+        "title": "当猪飞的时候",
+        "description": "用鞍骑一头猪，然后骑着它摔落，使猪受伤",
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent":"huanqiu:bedrock/cow_tipper",
+    "criteria": {
+        "hp9": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:pig",
+                        "nbt": "{Health:9.0f}"
+                    }
+                }
+            }
+        },
+        "hp8": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:pig",
+                        "nbt": "{Health:8.0f}"
+                    }
+                }
+            }
+        },
+        "hp7": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:pig",
+                        "nbt": "{Health:7.0f}"
+                    }
+                }
+            }
+        },
+        "hp6": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:pig",
+                        "nbt": "{Health:6.0f}"
+                    }
+                }
+            }
+        },
+        "hp5": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:pig",
+                        "nbt": "{Health:5.0f}"
+                    }
+                }
+            }
+        },
+        "hp4": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:pig",
+                        "nbt": "{Health:4.0f}"
+                    }
+                }
+            }
+        },
+        "hp3": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:pig",
+                        "nbt": "{Health:3.0f}"
+                    }
+                }
+            }
+        },
+        "hp2": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:pig",
+                        "nbt": "{Health:2.0f}"
+                    }
+                }
+            }
+        },
+        "hp1": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:pig",
+                        "nbt": "{Health:1.0f}"
+                    }
+                }
+            }
+        }
+    },
+    "requirements":[
+        [
+            "hp9",
+            "hp8",
+            "hp7",
+            "hp6",
+            "hp5",
+            "hp4",
+            "hp3",
+            "hp2",
+            "hp1"
+        ]
+    ]
+}

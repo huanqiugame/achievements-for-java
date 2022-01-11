@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": "在铁路上",
+        "description": "乘着矿车沿单一方向前往离出发地至少500米的地方",
+        "icon": {
+            "item": "minecraft:rail"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent":"huanqiu:cant/taking_inventory",
+    "criteria": {
+        "riding": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "distance": {
+                        "absolute": {
+                            "max": 10
+                        }
+                    },
+                    "vehicle": {
+                        "type": "minecraft:minecart"
+                    }
+                }
+            }
+        }
+    }
+}

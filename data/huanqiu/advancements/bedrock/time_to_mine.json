@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": "采矿时间到！",
+        "description": "使用木板和木棍制作镐",
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent":"huanqiu:bedrock/benchmaking",
+    "criteria": {
+        "get_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {
+                        "count":{
+                            "min":1
+                        },
+                        "items":[
+                            "minecraft:wooden_pickaxe",
+                            "minecraft:stone_pickaxe",
+                            "minecraft:golden_pickaxe",
+                            "minecraft:iron_pickaxe",
+                            "minecraft:diamond_pickaxe",
+                            "minecraft:netherite_pickaxe"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

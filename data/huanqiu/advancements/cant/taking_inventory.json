@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "打开物品栏",
-        "description": "由于条件限制，此成就无法移植",
+        "description": "打开物品栏",
         "icon": {
             "item": "minecraft:book"
         },
@@ -10,6 +10,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
+    "parent": "huanqiu:cant/root",
     "criteria": {
         "command": {
             "trigger": "minecraft:impossible"

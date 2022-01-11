@@ -18,4 +18,4 @@
 
 ## 共享
 
-本数据包同时在 [Gitub](https://github.com/huanqiugame/achievement-for-java/)（国外）和 [Gitee](https://gitee.com/huan-qiu/achievement-for-java/)（国内） 上发布，如果您是视频作者，或者希望转载，请注明出处。
+本数据包同时在 [Github](https://github.com/huanqiugame/achievements-for-java/)（国外）和 [Gitee](https://gitee.com/huan-qiu/achievements-for-java/)（国内） 上发布，如果您是视频作者，或者希望转载，请注明出处。

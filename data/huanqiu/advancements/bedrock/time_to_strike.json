@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": "出击时间到！",
+        "description": "使用木板和木棍制作剑",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent":"huanqiu:bedrock/delicious_fish",
+    "criteria": {
+        "get_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {
+                        "count":{
+                            "min":1
+                        },
+                        "items":[
+                            "minecraft:wooden_sword",
+                            "minecraft:stone_sword",
+                            "minecraft:golden_sword",
+                            "minecraft:iron_sword",
+                            "minecraft:diamond_sword",
+                            "minecraft:netherite_sword"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

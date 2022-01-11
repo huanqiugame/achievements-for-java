@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": "斗牛士",
+        "description": "获得一些皮革",
+        "icon": {
+            "item": "minecraft:leather"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent":"huanqiu:bedrock/monster_hunter",
+    "criteria": {
+        "get_leather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {
+                        "count":{
+                            "min":1
+                        },
+                        "items":[
+                            "minecraft:leather"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

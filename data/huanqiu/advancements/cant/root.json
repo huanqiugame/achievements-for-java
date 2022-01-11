@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "无法被制作的基岩版成就",
+        "description": "这里是无法成功被移植到Java版的成就（或者是我不会做的成就），您会直接获得它们",
+        "icon": {
+            "item": "minecraft:podzol"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/podzol_top.png"
+    },
+    "criteria": {
+        "command": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

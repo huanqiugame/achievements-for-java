@@ -1,0 +1,29 @@
+{
+  "parent": "huanqiu:bedrock/getting_an_upgrade",
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_cod"
+    },
+    "title": "美味的鱼儿",
+    "description": "捕鱼，然后烹饪！",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cooked_fish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_cod",
+              "minecraft:cooked_salmon"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
