@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "制作工作台",
+        "description": "使用4块木板制作一个工作台。",
+        "icon": {
+            "id": "minecraft:crafting_table",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:crafting_table"
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

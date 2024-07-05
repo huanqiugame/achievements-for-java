@@ -1,7 +1,13 @@
 {
     "display": {
         "title": "基岩版成就",
-        "description": "现在，Java版也有了基岩版成就！",
+        "description": [
+            "现在，Java版也有了基岩版成就！",
+            {
+                "text": "（进度实际需求与基岩版相同，不一定与描述相同，具体请参考 Minecraft Wiki ；若无法实现，会标出实际需求；与Java版进度相同的成就会被跳过）",
+                "color": "gray"
+            }
+        ],
         "icon": {
             "id": "minecraft:dirt_path",
             "count": 1

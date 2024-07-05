@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "蛋糕是个谎言",
+        "description": "使用这些原材料烘焙蛋糕：小麦、糖、牛奶和鸡蛋。",
+        "icon": {
+            "id": "minecraft:cake",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "cake": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:cake"
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

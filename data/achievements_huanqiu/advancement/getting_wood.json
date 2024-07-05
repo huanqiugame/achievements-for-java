@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "获得木头",
+        "description": "从树上砍下来一块木材",
+        "icon": {
+            "id": "minecraft:oak_log",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "log": {
+            "trigger": "minecraft:thrown_item_picked_up_by_player",
+            "conditions": {
+                "item": {
+                    "items": "#minecraft:logs"
+                }
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

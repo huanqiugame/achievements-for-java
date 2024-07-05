@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": "采矿时间到！",
+        "description": "使用木板和木棍制作镐。",
+        "icon": {
+            "id": "minecraft:wooden_pickaxe",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "diamond_pickaxe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:diamond_pickaxe"
+            }
+        },
+        "stone_pickaxe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:stone_pickaxe"
+            }
+        },
+        "iron_pickaxe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:iron_pickaxe"
+            }
+        },
+        "golden_pickaxe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:golden_pickaxe"
+            }
+        },
+        "wooden_pickaxe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:wooden_pickaxe"
+            }
+        }
+    },
+    "requirements": [
+        ["diamond_pickaxe", "stone_pickaxe", "iron_pickaxe", "golden_pickaxe", "wooden_pickaxe"]
+    ],
+    "parent": "achievements_huanqiu:root"
+}

@@ -1,0 +1,79 @@
+{
+    "display": {
+        "title": "在铁路上",
+        "description": "乘着矿车沿单一方向前往离出发地至少500米的地方。",
+        "icon": {
+            "id": "minecraft:rail",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "score_is_reached": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "any_of",
+                        "terms": [
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "achievements_huanqiu_on_a_rail_distance_x": {
+                                        "min": 500
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "achievements_huanqiu_on_a_rail_distance_z": {
+                                        "min": 500
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "achievements_huanqiu_on_a_rail_distance_y": {
+                                        "min": 500
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "achievements_huanqiu_on_a_rail_distance_x": {
+                                        "max": -500
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "achievements_huanqiu_on_a_rail_distance_z": {
+                                        "max": -500
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "achievements_huanqiu_on_a_rail_distance_y": {
+                                        "max": -500
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

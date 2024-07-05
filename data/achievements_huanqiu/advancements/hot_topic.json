@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "“热”门话题",
+        "description": "用8块圆石制作一个熔炉。",
+        "icon": {
+            "id": "minecraft:furnace",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "furnace": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:furnace"
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

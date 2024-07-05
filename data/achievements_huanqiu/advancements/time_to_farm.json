@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": "耕种时间到！",
+        "description": "制作一个锄头。",
+        "icon": {
+            "id": "minecraft:stone_hoe",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "diamond_hoe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:diamond_hoe"
+            }
+        },
+        "stone_hoe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:stone_hoe"
+            }
+        },
+        "iron_hoe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:iron_hoe"
+            }
+        },
+        "golden_hoe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:golden_hoe"
+            }
+        },
+        "wooden_hoe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:wooden_hoe"
+            }
+        }
+    },
+    "requirements": [
+        ["diamond_hoe", "stone_hoe", "iron_hoe", "golden_hoe", "wooden_hoe"]
+    ],
+    "parent": "achievements_huanqiu:root"
+}

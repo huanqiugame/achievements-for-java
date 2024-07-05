@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "烤面包",
+        "description": "用小麦制作面包。",
+        "icon": {
+            "id": "minecraft:bread",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:bread"
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

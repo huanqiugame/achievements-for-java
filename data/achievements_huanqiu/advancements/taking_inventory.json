@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "打开物品栏",
+        "description": [
+            "打开物品栏。",
+            {
+                "text": "（实际需求：物品栏内发生任何变化。）",
+                "color": "gray"
+            }
+        ],
+        "icon": {
+            "id": "minecraft:book",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "inventory_changed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": []
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

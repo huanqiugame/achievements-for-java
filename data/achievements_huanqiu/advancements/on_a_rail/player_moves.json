@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "player_moves": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "movement": {
+                        "speed": {
+                            "min": 0.01
+                        }
+                    },
+                    "vehicle": {
+                        "movement": {
+                            "speed": {
+                                "min": 0.01
+                            }
+                        },
+                        "type": "minecraft:minecart"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "achievements_huanqiu:on_a_rail/player_moves"
+    }
+}

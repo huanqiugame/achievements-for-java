@@ -1,0 +1,9 @@
+scoreboard objectives add achievements_huanqiu_on_a_rail_x0 dummy
+scoreboard objectives add achievements_huanqiu_on_a_rail_y0 dummy
+scoreboard objectives add achievements_huanqiu_on_a_rail_z0 dummy
+scoreboard objectives add achievements_huanqiu_on_a_rail_x1 dummy
+scoreboard objectives add achievements_huanqiu_on_a_rail_y1 dummy
+scoreboard objectives add achievements_huanqiu_on_a_rail_z1 dummy
+scoreboard objectives add achievements_huanqiu_on_a_rail_distance_x dummy
+scoreboard objectives add achievements_huanqiu_on_a_rail_distance_y dummy
+scoreboard objectives add achievements_huanqiu_on_a_rail_distance_z dummy

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "player_moves": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:minecart"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "achievements_huanqiu:on_a_rail/interact_with_minecart"
+    }
+}

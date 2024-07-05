@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "美味的鱼儿",
+        "description": "捕鱼，然后烹饪！",
+        "icon": {
+            "id": "minecraft:cooked_cod",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "cooked_cod": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:cooked_cod"
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}
