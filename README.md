@@ -8,7 +8,7 @@
 
 本数据包中的所有成就条件信息均来源于[Minecraft Wiki](https://zh.minecraft.wiki)。与Java版进度相同的成就会被跳过。
 
-*由于Java版数据包的限制，我可能无法完全还原基岩版成就的达成条件。*详细信息也在游戏内进度菜单内给出。本数据包的命名空间ID为`achievements_huanqiu`。
+由于Java版数据包的限制，我可能无法完全还原基岩版成就的达成条件。详细信息也在游戏内进度菜单内给出。本数据包的命名空间ID为`achievements_huanqiu`。
 
 本数据包同时在[Github](https://github.com/huanqiugame/achievements-for-java/)和[Gitee](https://gitee.com/huan-qiu/achievements-for-java/)上发布，如果您是视频作者，或者希望转载，请注明出处。
 
