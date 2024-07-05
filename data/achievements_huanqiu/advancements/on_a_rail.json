@@ -5,7 +5,8 @@
         "icon": {
             "id": "minecraft:rail",
             "count": 1
-        }
+        },
+        "frame": "goal"
     },
     "criteria": {
         "score_is_reached": {

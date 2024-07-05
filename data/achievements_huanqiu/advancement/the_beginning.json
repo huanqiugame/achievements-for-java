@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": "开始了。",
+        "description": [
+            "杀死凋灵",
+            {
+                "text": "（玩家杀死凋灵，且该玩家位于以凋灵为中心的100.9×100.9×103.5区域里；要获得进度的其他玩家距离凋灵至多51格。）",
+                "color": "gray"
+            }
+        ],
+        "icon": {
+            "id": "minecraft:saddle",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "kill_wither": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither",
+                    "distance": {
+                        "horizontal": {
+                            "max": 50.45
+                        },
+                        "y": {
+                            "max": 51.75
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "achievements_huanqiu:the_beginning"
+    },
+    "parent": "achievements_huanqiu:root"
+}

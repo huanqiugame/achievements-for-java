@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": "出击时间到！",
+        "description": "使用木板和木棍制作剑。",
+        "icon": {
+            "id": "minecraft:wooden_sword",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "diamond_sword": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:diamond_sword"
+            }
+        },
+        "stone_sword": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:stone_sword"
+            }
+        },
+        "wooden_sword": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:wooden_sword"
+            }
+        },
+        "iron_sword": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:iron_sword"
+            }
+        },
+        "golden_sword": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:golden_sword"
+            }
+        }
+    },
+    "requirements": [
+        ["diamond_sword", "stone_sword", "wooden_sword", "iron_sword", "golden_sword"]
+    ],
+    "parent": "achievements_huanqiu:root"
+}

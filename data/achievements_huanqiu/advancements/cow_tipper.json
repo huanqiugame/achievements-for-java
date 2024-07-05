@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "斗牛士",
+        "description": "获得一些皮革。",
+        "icon": {
+            "id": "minecraft:leather",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "leather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

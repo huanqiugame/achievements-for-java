@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": "当猪飞的时候",
+        "description": "用鞍骑一头猪，然后骑着它摔落，使猪受伤。",
+        "icon": {
+            "id": "minecraft:saddle",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "pigs_fly": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:pig",
+                        "movement": {
+                            "fall_distance": {
+                                "min": 4.4
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

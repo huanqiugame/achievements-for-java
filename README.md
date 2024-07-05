@@ -31,6 +31,14 @@
 - 蛋糕是个谎言 The Lie
 - 美味的鱼儿 Delicious Fish
 - 在铁路上 On A Rail
+- 出击时间到！ Time to Strike!
+- 斗牛士 Cow Tipper
+- 当猪飞的时候 When Pigs Fly
+- 赶尽杀绝 Overkill
+    - 实际需求：在减少伤害前实体即将受到的伤害总量为18（9❤️），而非实体实际收到的伤害总量。
+- 图书管理员 Librarian
+- 开始了。 The Beginning.
+    - 实际需求：玩家杀死凋灵，且该玩家位于以凋灵为中心的100.9×100.9×103.5区域里；要获得进度的其他玩家距离凋灵至多51格。
 
 ## 使用记分板
 

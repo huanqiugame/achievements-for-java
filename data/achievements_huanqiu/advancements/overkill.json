@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": "赶尽杀绝",
+        "description": [
+            "一击造成9颗心的伤害。",
+            {
+                "text": "（在减少伤害前实体即将受到的伤害总量为18（9❤️），而非实体实际收到的伤害总量。）",
+                "color": "gray"
+            }
+        ],
+        "icon": {
+            "id": "minecraft:diamond_sword",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "overkill": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 18
+                    }
+                }
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

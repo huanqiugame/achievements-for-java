@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "图书管理员",
+        "description": "建造一些书架来改进附魔台。",
+        "icon": {
+            "id": "minecraft:bookshelf",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "bookshelf": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:bookshelf"
+            }
+        }
+    },
+    "parent": "achievements_huanqiu:root"
+}

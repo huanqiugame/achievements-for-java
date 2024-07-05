@@ -1,0 +1,1 @@
+execute as @e[type=wither,nbt={Health:0.0f}] run advancement grant @a[distance=..51] only achievements_huanqiu:the_beginning
